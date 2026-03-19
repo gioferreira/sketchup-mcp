@@ -32,6 +32,12 @@ sketchup-mcp/
 4. Registrar: `claude mcp add sketchup -- uv run --directory ~/repos/sketchup-mcp python -m sketchup_mcp`
 5. Testar end-to-end
 
+### Referências de arquitetura
+- CFO MCP server: `~/repos/pts/cfo-mcp-server/` — FastMCP, lifespan, tools modulares, docstrings ricas
+- CFO PRD: `~/repos/pts/cfo-mcp-server/docs/prd-v3.md` — padrões de design adotados
+- InDesign MCP: experiência prévia com MCP para app desktop (memória do projeto TFG)
+- NotebookLM "SketchUp Ruby API": consultar antes de gerar código Ruby
+
 ### Decisões já tomadas
 - Consultar NotebookLM "SketchUp Ruby API" antes de gerar código Ruby
 - eval_ruby é a tool mais poderosa — as outras são conveniência
